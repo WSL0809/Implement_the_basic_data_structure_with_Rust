@@ -44,9 +44,9 @@ mod tests {
     #[test]
     fn it_works(){
         let mut q = Queue::new(3);
-        let r1 = q.enqueue(1);
-        let r2 = q.enqueue(2);
-        let r3 = q.enqueue(3);
+        let _r1 = q.enqueue(1);
+        let _r2 = q.enqueue(2);
+        let _r3 = q.enqueue(3);
 
         if let Err(e) = q.enqueue(4){
             println!("{}", e);
